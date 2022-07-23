@@ -34,3 +34,4 @@ var fs = require('fs')
 fs.writeFile('calc1.js','console.log("hello Data is saved thank you")',function(err){
     console.log("data saved successfully")
 })
+
