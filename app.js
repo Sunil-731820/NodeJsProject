@@ -22,7 +22,15 @@
 // var subtr1 = calc.sub(100,1000)
 // console.log("the subtraction of the Two Number is "+ subtr1)
 
+//Reading the file from the other file Name
+// var fs = require('fs')
+// fs.readFile('calc.js','utf8',function(err,data){
+//     console.log(data)
+// })
+
+// Writing to the another File
+
 var fs = require('fs')
-fs.readFile('calc.js','utf8',function(err,data){
-    console.log(data)
+fs.writeFile('calc1.js','console.log("hello Data is saved thank you")',function(err){
+    console.log("data saved successfully")
 })
