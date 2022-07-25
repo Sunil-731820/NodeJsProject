@@ -6,6 +6,8 @@
 // var id2 = setInterval(welcome,1000)
 // clearTimeout(id1)
 
+
+
 function welcome(){
     console.log("welcome to My Node JS practice Tutorial")
 }
